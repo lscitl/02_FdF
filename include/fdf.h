@@ -6,7 +6,7 @@
 /*   By: seseo <seseo@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/30 13:53:15 by seseo             #+#    #+#             */
-/*   Updated: 2022/05/12 16:59:23 by seseo            ###   ########.fr       */
+/*   Updated: 2022/07/15 20:24:39 by seseo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,27 +20,29 @@
 
 # define _USE_MATH_DEFINES
 
-# define TRUE 1
-# define FALSE 0
+# define TRUE	1
+# define FALSE	0
 
-# define KEY_Q 12
-# define KEY_W 13
-# define KEY_A 0
-# define KEY_S 1
-# define KEY_Z 6
-# define KEY_X 7
-# define KEY_C 8
-# define KEY_R 15
-# define KEY_O 31
-# define KEY_I 34
-# define KEY_P 35
-# define KEY_UP 126
-# define KEY_DOWN 125
-# define KEY_LEFT 123
-# define KEY_RIGHT 124
-# define KEY_ESC 53
-# define KEY_EVENT_PRESS 2
-# define KEY_EVENT_EXIT 17
+# define KEY_A				0
+# define KEY_S				1
+# define KEY_Z				6
+# define KEY_X				7
+# define KEY_C				8
+# define KEY_Q				12
+# define KEY_W				13
+# define KEY_R				15
+# define KEY_O				31
+# define KEY_I				34
+# define KEY_P				35
+
+# define KEY_LEFT			123
+# define KEY_RIGHT			124
+# define KEY_DOWN			125
+# define KEY_UP				126
+
+# define KEY_ESC			53
+# define KEY_EVENT_PRESS	2
+# define KEY_EVENT_EXIT		17
 
 typedef struct s_data
 {
